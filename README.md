@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Stylish Portfolio Preview](https://startbootstrap.com/assets/img/templates/stylish-portfolio.jpg)](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
+[![Stylish Portfolio Preview](https://startbootstrap.com/assets/img/templates/stylish-portfolio.jpg)](http://preview.christopherdaniel.me/react-stylish-portfolio/)
 
 **[View Live Preview](http://preview.christopherdaniel.me/react-stylish-portfolio/)**
 
@@ -23,16 +23,31 @@ To begin using this template, choose one of the following options to get started
 
 ### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+### Install
+### `npm start` or `yarn start`
+### Run 
+### `npm start` or `yarn start`
 
-### Advanced Usage
+Runs the app in development mode.
+Open http://localhost:3000 to view it in the browser.
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` to see which tasks are included with the dev environment.
+The page will automatically reload if you make changes to the code.
+You will see the build errors and lint warnings in the console.
 
+
+### `npm run build` or `yarn build`
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+By default, it also includes a service worker so that your app loads from local cache on future visits.
+
+Your app is ready to be deployed.
 ## Troubleshooting and Help
 
 Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
 
+If you have concerns regarding this code directly message CincinnatiCodes!
 **[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
 
 ## Bugs and Issues
@@ -53,6 +68,8 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 * https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+React App built by [CincinnatiCodes](http://twitter.com/cincinnaticodes)
 
 ## Copyright and License
 
