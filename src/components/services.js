@@ -49,6 +49,10 @@ const ServicesSections = () => (
             </div>
           ))}
         </div>
+        <br />
+        <a className="btn btn-xl btn-light" href="#contact">
+          Get In Touch
+        </a>
       </div>
     </section>
   </ScrollableAnchor>
