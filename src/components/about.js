@@ -1,5 +1,5 @@
-import React from "react";
-import ScrollableAnchor from "react-scrollable-anchor";
+import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const AboutSection = () => (
   <ScrollableAnchor id="about">
@@ -7,13 +7,15 @@ const AboutSection = () => (
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-10 mx-auto">
-            <h2>
-              Stylish Portfolio is the perfect theme for your next project!
-            </h2>
+            <h2>WHO WE ARE</h2>
             <p className="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends at
-              <a href="https://unsplash.com/">Unsplash</a>!
+              Decorated, experienced consultants with experience in building,
+              training and leading high-performance remote teams. Our mission at
+              Remote Assured is to help you build your own high-performance team
+              and win from any location. We customize training to your specific
+              needs through far-reaching leadership courses, single or multi-day
+              workshops, speaking, strategic advising, and our web-based
+              training program.
             </p>
             <a
               className="btn btn-dark btn-xl js-scroll-trigger"

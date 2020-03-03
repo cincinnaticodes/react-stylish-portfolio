@@ -245,7 +245,7 @@ h6 {
       max-width: none;
       margin: 0; }
       .portfolio-item .caption {
-        -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+        -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
         -webkit-clip-path: inset(0px);
         clip-path: inset(0px); }
         .portfolio-item .caption .caption-content {

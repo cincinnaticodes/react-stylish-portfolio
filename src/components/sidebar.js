@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 class Sidebar extends React.Component {
   constructor(props) {
@@ -10,45 +10,41 @@ class Sidebar extends React.Component {
   render() {
     const siteNav = [
       {
-        title: "Home",
-        url: "#top"
+        title: 'Home',
+        url: '#top'
       },
       {
-        title: "About",
-        url: "#about"
+        title: 'About',
+        url: '#about'
       },
       {
-        title: "Services",
-        url: "#services"
+        title: 'Services',
+        url: '#services'
       },
       {
-        title: "Portfolio",
-        url: "#portfolio"
-      },
-      {
-        title: "Contact",
-        url: "#contact"
+        title: 'Contact',
+        url: '#contact'
       }
     ];
     return [
       <a
-        key={"nav-menu-button"}
+        key={'nav-menu-button'}
         className="menu-toggle rounded"
         onClick={() => this.onMenuClick()}
       >
         <i
-          className={`fas ${this.state.sidebarOpen ? "fa-times" : "fa-bars"}`}
+          className={`fas ${this.state.sidebarOpen ? 'fa-times' : 'fa-bars'}`}
         />
       </a>,
       <nav
-        key={"nav-menu"}
+        key={'nav-menu'}
         id="sidebar-wrapper"
-        className={this.state.sidebarOpen ? "active" : ""}
+        className={this.state.sidebarOpen ? 'active' : ''}
       >
         <ul className="sidebar-nav">
           <li className="sidebar-brand">
             <a className="js-scroll-trigger" href="#top">
-              Start Bootstrap
+              Menu
             </a>
           </li>
           {siteNav.map(link => (

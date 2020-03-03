@@ -1,29 +1,29 @@
-import React from "react";
-import ScrollableAnchor from "react-scrollable-anchor";
+import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 const ServicesOffered = [
   {
-    title: "Responsive",
-    description: "Looks great on any screen size!",
-    icon: "icon-screen-smartphone"
+    title: 'Leadership Development',
+    description:
+      'Problem solving sessions with consultants where client problems and challenges are presented, solutions developed, and implementation programs created by tapping into the collective knowledge and experience of our team.',
+    icon: 'icon-screen-smartphone'
   },
   {
-    title: "Redesigned",
-    description: "Freshly redesigned for Bootstrap 4.",
-    icon: "icon-pencil"
+    title: 'Employee Training',
+    description:
+      'Our Employee Training Exercises are highly-customizable, hands-on, real world training on Accountability Principles. Our clients are put in relevant, challenging, and unfamiliar situations that bring to purpose to working remotely from home.',
+    icon: 'icon-pencil'
   },
   {
-    title: "Favorited",
-    description: (
-      <span>
-        Millions of users <i className="fas fa-heart" /> Start Bootstrap!
-      </span>
-    ),
-    icon: "icon-like"
+    title: 'Workshops',
+    description:
+      'Workshops vary greatly based on client objectives, duration, number of attendees, and type of engagement. We work with each client to build a program tailored to their needs, identifying the key concepts and principles for each specific group of attendees.',
+    icon: 'icon-like'
   },
   {
-    title: "Question",
-    description: "I mustache you a question...",
-    icon: "icon-mustache"
+    title: 'Technology',
+    description:
+      'Deep dive into Extreme Ownership leadership principles that clearly outline the behaviors and mindsets of the best leaders and teams. Test your ability to apply these principles through interactive scenarios that cover common business challenges.',
+    icon: 'icon-mustache'
   }
 ];
 const ServicesSections = () => (
