@@ -1,17 +1,27 @@
 import React from 'react';
 
 const CallToAction = () => (
-  <section className="content-section bg-primary text-white">
+  <section className="content-section bg-primary text-white" id="contact">
     <div className="container text-center">
-      <h2 className="mb-4">The buttons below are impossible to resist...</h2>
-      <a
-        href="mailto:chrisboydstun@gmail.com"
-        className="btn btn-xl btn-light mr-4"
-      >
-        Click Me!
+      <h2 className="mb-4">
+        Get in touch <em>today</em>!
+      </h2>
+      <p>Choose whichever option is best for you. =)</p>
+      <br />
+      <a href="mailto:chrisboydstun@gmail.com" className="btn btn-xl btn-light">
+        Email
       </a>
+      <br />
+      <br />
+
       <a href="" className="btn btn-xl btn-dark">
-        Look at Me!
+        Contact Form
+      </a>
+      <br />
+      <br />
+
+      <a href="" className="btn btn-xl btn-light">
+        Book a Consultation
       </a>
     </div>
   </section>

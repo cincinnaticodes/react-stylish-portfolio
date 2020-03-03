@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 const MapSection = () => (
-  <ScrollableAnchor id="contact">
+  <ScrollableAnchor>
     <section className="map">
       <iframe
         title="where-we-are-located"

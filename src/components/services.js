@@ -23,7 +23,7 @@ const ServicesOffered = [
     title: 'Technology',
     description:
       'Deep dive into technological components that control the behaviors and results of your best leaders and their teams. Test your organizational ability and develop solutions to cover and overcome common remote business challenges.',
-    icon: 'icon-mustache'
+    icon: 'icon-cloud-download'
   }
 ];
 const ServicesSections = () => (
