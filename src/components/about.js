@@ -11,7 +11,7 @@ const AboutSection = () => (
             <p className="lead mb-5">
               Professional, experienced consultants with knowledge in building,
               training and leading high-performance remote teams. Our mission at
-              Remote Assured is to help you build your own high-performance team
+              TeleCapable is to help you build your own high-performance team
               and win from any location. We customize training to your specific
               needs through far-reaching leadership courses, single or multi-day
               workshops, speaking, strategic advising, and our web-based

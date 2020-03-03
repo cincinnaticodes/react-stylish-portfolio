@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => (
   <header className="masthead d-flex">
     <div className="container text-center my-auto">
-      <h1 className="mb-1">TeleCapable</h1>
+      <h1 className="mb-1">TeleCapable{String.fromCharCode(174)} </h1>
       <h3 className="mb-5">
         <em>Keeping your business moving while you're out of the office.</em>
       </h3>
