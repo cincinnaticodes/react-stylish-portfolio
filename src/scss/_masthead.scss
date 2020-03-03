@@ -11,10 +11,11 @@
       fade-out($white, 0.9) 0%,
       fade-out($white, 0.9) 100%
     ),
-    url("./img/bg-masthead.jpg");
+    url('./img/bg-masthead.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
   h1 {
     font-size: 4rem;
     margin: 0;

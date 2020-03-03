@@ -9,7 +9,7 @@ const AboutSection = () => (
           <div className="col-lg-10 mx-auto">
             <h2>WHO WE ARE</h2>
             <p className="lead mb-5">
-              Decorated, experienced consultants with experience in building,
+              Professional, experienced consultants with knowledge in building,
               training and leading high-performance remote teams. Our mission at
               Remote Assured is to help you build your own high-performance team
               and win from any location. We customize training to your specific

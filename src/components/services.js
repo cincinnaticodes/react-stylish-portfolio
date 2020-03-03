@@ -22,7 +22,7 @@ const ServicesOffered = [
   {
     title: 'Technology',
     description:
-      'Deep dive into Extreme Ownership leadership principles that clearly outline the behaviors and mindsets of the best leaders and teams. Test your ability to apply these principles through interactive scenarios that cover common business challenges.',
+      'Deep dive into technological components that control the behaviors and results of your best leaders and their teams. Test your organizational ability and develop solutions to cover and overcome common remote business challenges.',
     icon: 'icon-mustache'
   }
 ];
@@ -31,7 +31,6 @@ const ServicesSections = () => (
     <section className="content-section bg-primary text-white text-center">
       <div className="container">
         <div className="content-section-heading">
-          <h3 className="text-secondary mb-0">Services</h3>
           <h2 className="mb-5">What We Offer</h2>
         </div>
         <div className="row">
