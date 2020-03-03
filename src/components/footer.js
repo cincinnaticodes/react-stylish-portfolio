@@ -21,7 +21,7 @@ const FooterSection = () => (
         ))}
       </ul>
       <p className="text-muted small mb-0">
-        Copyright &copy; Remote Assured 2020
+        Copyright &copy; TeleCapable 2020
       </p>
     </div>
   </footer>

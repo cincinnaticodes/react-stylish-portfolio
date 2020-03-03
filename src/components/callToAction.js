@@ -8,7 +8,7 @@ const CallToAction = () => (
       </h2>
       <p>Choose whichever option is best for you. =)</p>
       <br />
-      <a href="mailto:chrisboydstun@gmail.com" className="btn btn-xl btn-light">
+      <a href="mailto:admin@telecapable.com" className="btn btn-xl btn-light">
         Email
       </a>
       <br />
