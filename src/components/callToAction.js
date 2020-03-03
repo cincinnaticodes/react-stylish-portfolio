@@ -14,11 +14,11 @@ const CallToAction = () => (
       <br />
       <br />
 
-      <a href="" className="btn btn-xl btn-dark">
+      {/* <a href="" className="btn btn-xl btn-dark">
         Contact Form
       </a>
       <br />
-      <br />
+      <br /> */}
 
       <a
         href="https://calendly.com/telecapable/30min"
