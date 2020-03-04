@@ -1,7 +1,7 @@
 import React from 'react';
 const socialSites = [
   {
-    link: 'https://linkedin.com/',
+    link: 'https://www.linkedin.com/company/telecapable/',
     icon: 'icon-social-linkedin'
   }
 ];
@@ -20,9 +20,7 @@ const FooterSection = () => (
           </li>
         ))}
       </ul>
-      <p className="text-muted small mb-0">
-        Copyright &copy; TeleCapable 2020
-      </p>
+      <p className="text-muted small mb-0">Copyright &copy; TeleCapable 2020</p>
     </div>
   </footer>
 );
