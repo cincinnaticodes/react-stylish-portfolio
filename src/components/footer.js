@@ -1,6 +1,10 @@
 import React from 'react';
 const socialSites = [
   {
+    link: 'mailto:admin@telecapable.com',
+    icon: 'icon-envelope-open'
+  },
+  {
     link: 'https://www.linkedin.com/company/telecapable/',
     icon: 'icon-social-linkedin'
   }

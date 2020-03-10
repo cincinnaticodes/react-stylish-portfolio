@@ -15,6 +15,8 @@ import MapSection from './components/map';
 import FooterSection from './components/footer';
 import ScrollToTop from './components/scrollToTop';
 
+import CalendlyEmbed from './components/calendly';
+
 class App extends React.Component {
   render() {
     return (
@@ -25,7 +27,8 @@ class App extends React.Component {
         <ServicesSections />
         <CalloutSection />
         {/* <PortfolioSection /> */}
-        <CallToAction />
+        {/* <CallToAction /> */}
+        <CalendlyEmbed account="telecapable" eventName="30min" />
         <MapSection />
         <FooterSection />
         <ScrollToTop />
